@@ -67,6 +67,9 @@ Le modèle outbox de Nostr, tel un pas de deux sophistiqué, renforce cette appr
 
 En maîtrisant ces concepts et leurs implications, les développeurs peuvent créer des applications plus robustes et efficaces sur ces plateformes décentralisées. Le rideau peut tomber sur cet article, mais la danse du théorème CAP, de Bitcoin et de Nostr, elle, ne fait que commencer.
 
+{{< youtube CF4YxeaeDuY >}}
+
+
 Citations:
 
 [1] https://www.scylladb.com/glossary/cap-theorem/
