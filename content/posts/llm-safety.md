@@ -1,7 +1,7 @@
 +++
-title = 'LLMs : Le Défi Titanesque de la Sécurité à l\'Ère de l\'IA Omnisciente'
-date = 2024-09-16T09:06:00+02:00
-draft = false
+title= "LLMs : Le Défi Titanesque de la Sécurité à l'Ère de l'IA Omnisciente"
+date= 2024-09-16T09:06:00+02:00
+draft= false
 +++
 
 # Les LLMs : Naviguer entre Promesses et Périls - Un Défi de Taille pour notre Ère Numérique
@@ -134,9 +134,9 @@ Pour vraiment relever ce défi, nous avons besoin d'une collaboration sans préc
 À mesure que les LLMs deviennent plus puissants et omniprésents, il est crucial de mettre en place des mécanismes de transparence et de responsabilité. Cela pourrait inclure :
 
 - Des audits réguliers des LLMs par des organismes indépendants.
-- La publication des méthodologies de sécurisation utilisées.
+- La publication des méthodologies de scurisation utilisées.
 - La mise en place de canaux de feedback pour que les utilisateurs puissent signaler des comportements problématiques.
-- Le développement de standards industriels pour la sécurité des LLMs.
+- Le développement de standards industriels pour la s��curité des LLMs.
 
 ## Conclusion : Un Appel à l'Action
 
