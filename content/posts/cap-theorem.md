@@ -3,7 +3,7 @@ title = 'Cap Theorem'
 date = 2024-09-15T09:06:00+02:00
 draft = false
 +++
-Voici l'article complet modifié avec les ajouts sur Bitcoin et Nostr :
+
 
 # Le théorème CAP : La clé de la conception des systèmes distribués comme Bitcoin et Nostr
 
