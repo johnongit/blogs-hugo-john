@@ -1,5 +1,5 @@
 +++
-title = 'LLMs : Le Défi Titanesque de la Sécurité à l'Ère de l'IA Omnisciente'
+title = 'LLMs : Le Défi Titanesque de la Sécurité à l\'Ère de l'IA Omnisciente'
 date = 2024-09-16T09:06:00+02:00
 draft = false
 +++
