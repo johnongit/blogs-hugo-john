@@ -158,6 +158,9 @@ Les IA d'usage général, comme les grands modèles de langage, sont également 
 
 L'AI Act représente une initiative ambitieuse de l'Union européenne pour encadrer le développement et l'utilisation de l'intelligence artificielle. En adoptant une approche basée sur les risques, il cherche à protéger les citoyens tout en permettant l'innovation technologique. Toutefois, l'équilibre entre régulation et encouragement de l'innovation sera déterminant pour le succès de ce cadre réglementaire. Les prochaines années seront cruciales pour observer la mise en œuvre de l'AI Act et son impact réel sur l'écosystème de l'IA en Europe.
 
+
+{{< youtube IZH9z8mC3F0 >}}
+
 ---
 
 *Sources :*
