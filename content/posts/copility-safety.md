@@ -4,7 +4,7 @@ date= 2024-09-18T09:18:00+02:00
 draft= false
 +++
 
-## Microsoft 365 Copilot : Un Assistant IA Puissant mais Sous Haute Surveillance Sécuritaire
+## Microsoft 365 Copilot : Un Assistant IA Puissant mais Sous Haute Surveillance cyber
 
 **Imaginez un assistant digital qui booste votre productivité au sein de Microsoft 365, tout en garantissant la sécurité de vos données sensibles. Cela semble idéal, n'est-ce pas ?** C'est exactement ce que promet Microsoft 365 Copilot, mais comme toute technologie avancée, il soulève aussi des préoccupations importantes en matière de sécurité.
 
@@ -41,6 +41,9 @@ Pour minimiser les risques liés à l'utilisation de Copilot, il est essentiel d
 ### Conclusion
 
 **La sécurité de Microsoft 365 Copilot dépend d'une collaboration étroite entre Microsoft, les organisations utilisatrices et les experts en sécurité**. Une approche proactive, combinée à des efforts continus pour corriger les vulnérabilités et renforcer la gouvernance des données, est essentielle pour tirer pleinement parti des avantages de Copilot tout en minimisant les risques potentiels.
+
+
+{{<youtube 8VO-INOGx-k>}}
 
 Pour en savoir plus sur les enjeux de sécurité de Copilot, consultez les sources suivantes :
 
