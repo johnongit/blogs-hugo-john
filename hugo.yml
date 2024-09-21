@@ -61,7 +61,7 @@ params:
     enabled: true # Activé le mode profil
     title: "John"
     subtitle: "Nerd passionné | Explorateur du monde open source"
-    imageUrl: "https://inosta.cc/images/out-1.webp"
+    imageUrl: "https://inosta.cc/images/out-2.webp"
     imageWidth: 160
     imageHeight: 160
     imageTitle: "John"
