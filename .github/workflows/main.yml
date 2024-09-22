@@ -80,4 +80,4 @@ jobs:
         run: aws s3 sync ./public/ s3://${{ vars.BUCKET_NAME }}/blogs --delete --cache-control max-age=31536000
       - name: Cloudfront Invalidation
         id: flushcache
-        run: aws cloudfront create-invalidation --distribution-id ${{ vars.CF_DISTRIBUTION_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ vars.CF_DISTRIBUTION_ID }} --paths "/blogs/posts/*"

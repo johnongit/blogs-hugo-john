@@ -1,6 +1,6 @@
 +++
 title= "Les Menaces et Vulnérabilités des Grands Modèles de Langage (LLM) : Un Panorama Complet"
-date= 2024-09-16T22:06:00+02:00
+date= 2024-09-22T11:06:00+02:00
 draft= false
 +++
 
