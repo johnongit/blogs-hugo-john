@@ -86,7 +86,7 @@ Pour atténuer ce risque, il est crucial que les entreprises élaborent des poli
 
 En conclusion, bien que cette liste soit une version candidate et qu'une mise à jour majeure soit en cours, elle nous offre un aperçu crucial des défis de sécurité auxquels sont confrontées les applications LLM. Les opportunités offertes par ces technologies sont extraordinaires, mais elles s'accompagnent de risques significatifs qu'il ne faut pas sous-estimer. En comprenant ces risques et en mettant en œuvre les solutions d'atténuation appropriées, nous pouvons exploiter le potentiel des LLM de manière plus sûre et responsable. Restons vigilants et continuons à améliorer nos pratiques de sécurité pour faire face à l'évolution constante des menaces dans le domaine de l'IA, tout en attendant avec impatience la version 2.0 de l'OWASP Top 10 pour les applications LLM.
 
-
+{{< youtube pvUSVvsUBI0 >}}
 
 # Sources 
 
