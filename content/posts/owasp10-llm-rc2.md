@@ -11,7 +11,7 @@ draft= false
 
 S'il y a bien un mythe persistant autour de l'intelligence artificielle, c'est bien de la décrire comme une technologie infaillible et sans risques. Ceci ne manque pas de piment puisque, comme nous l'avions vu dans un précédent article, les modèles de langage (LLM) présentent en réalité de nombreuses vulnérabilités potentielles. C'est bien l'OWASP qui l'explique le mieux dans son top 10 des risques liés aux applications LLM.
 
-Avant de plonger dans les détails, il est important de noter que cette liste est une version candidate. En effet, selon une annonce récente sur LinkedIn (https://www.linkedin.com/pulse/announcing-owasp-top-10-large-language-model-v20-project-steve-wilson-an6jc/), l'OWASP travaille actuellement sur la version 2.0 de cette liste. Voici ce qu'ils ont déclaré :
+Avant de plonger dans les détails, il est important de noter que cette liste est une version candidate. En effet, selon une annonce récente sur LinkedIn ( https://www.linkedin.com/pulse/announcing-owasp-top-10-large-language-model-v20-project-steve-wilson-an6jc/ ), l'OWASP travaille actuellement sur la version 2.0 de cette liste. Voici ce qu'ils ont déclaré :
 
 "Nous sommes ravis d'annoncer la prochaine phase de notre projet - le développement de l'OWASP Top 10 pour les applications de grands modèles de langage v2.0. Cette initiative marque un grand pas en avant dans nos efforts pour maîtriser le paysage de sécurité des technologies d'IA avancées.
 
