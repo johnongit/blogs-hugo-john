@@ -1,6 +1,6 @@
 +++
 title= "La récupération contextuelle : révolutionner l'IA générative par le contexte"
-date= 2024-09-28T22:06:00+02:00
+date= 2024-09-28T16:06:00+02:00
 draft= false
 
 +++
