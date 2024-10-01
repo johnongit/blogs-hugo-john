@@ -1,6 +1,6 @@
 +++
 title= "OpenAI ouvre la voie à une nouvelle ère d'interfaces conversationnelles"
-date= 2024-09-01T09:19:00+02:00
+date= 2024-10-01T19:19:00+02:00
 draft= false
 +++
 
