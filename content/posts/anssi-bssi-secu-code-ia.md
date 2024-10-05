@@ -1,6 +1,6 @@
 +++
 title = "Les Assistants de Codage d'IA : Opportunités et Risques"
-date = 2024-10-05T09:06:00+02:00
+date = 2024-10-05T08:06:00+02:00
 draft = "false"
 +++
 

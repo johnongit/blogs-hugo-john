@@ -3,7 +3,6 @@ title= "Les dernières innovations d'OpenAI : Vers une IA plus interactive et ac
 date= 2024-10-01T19:19:00+02:00
 draft= false
 +++
-Voici l'article reformulé selon vos instructions :
 
 
 ## Une révolution dans la communication vocale en temps réel
