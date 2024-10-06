@@ -116,6 +116,8 @@ Voici des mesures spécifiques pour atténuer les risques associés aux assistan
 
 Les assistants de codage basés sur l'IA représentent une avancée significative pour le développement logiciel, en offrant des gains de productivité, une réduction des tâches répétitives, et une meilleure qualité de code grâce à des suggestions automatisées. Cependant, ces outils ne sont pas sans risques, notamment en matière de sécurité des données, de qualité du code, et de dépendance excessive des développeurs. Pour exploiter au mieux ces assistants tout en minimisant les dangers, il est essentiel de mettre en place des pratiques de sécurité rigoureuses, de maintenir une supervision humaine et de continuer à renforcer les compétences des développeurs. En combinant les avantages de l'IA avec une vigilance constante, les équipes de développement peuvent tirer pleinement parti des assistants de codage pour créer des logiciels innovants et sécurisés.
 
+{{< youtube yRGos2wA2hA >}}
+
 ---
 
 Source: 
