@@ -67,7 +67,7 @@ params:
     imageTitle: "John"
     buttons:
       - name: Posts
-        url: posts
+        url: posts/
 
 
   # home-info mode
