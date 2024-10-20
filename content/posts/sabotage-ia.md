@@ -76,6 +76,7 @@ Les "honeypots", des pièges à données conçus pour attirer les modèles vers 
 
 Toutefois, la lutte contre le sabotage n'est pas sans défis. La concurrence accrue entre développeurs de modèles d'IA pourrait mener à une confiance excessive dans ces systèmes et à une délégation trop importante des décisions à ces modèles, augmentant ainsi les risques de sabotage. Une vigilance constante, combinée à une amélioration continue des techniques de mitigation, est indispensable pour faire face à l'évolution des capacités de sabotage des modèles d'IA.
 
+{{< youtube vXlogE_YOLc >}}
 
 
 --------
