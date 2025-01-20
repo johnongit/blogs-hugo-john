@@ -81,3 +81,8 @@ Toutefois, la lutte contre le sabotage n'est pas sans défis. La concurrence acc
 
 --------
 Source: [sabotage-evaluations](https://www.anthropic.com/research/sabotage-evaluations)
+
+
+{{%/* comment */%}}
+Texte invisible ici
+{{%/* /comment */%}}
