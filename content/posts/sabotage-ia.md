@@ -82,9 +82,10 @@ Toutefois, la lutte contre le sabotage n'est pas sans défis. La concurrence acc
 --------
 Source: [sabotage-evaluations](https://www.anthropic.com/research/sabotage-evaluations)
 
-
+{{< rawhtml >}}
 <!-- Texte invisible ici -->
 <!-- 
 Mots-clés: IA, sabotage, sécurité, Anthropic, Claude
 Description: Article sur l'évaluation des capacités de sabotage des modèles d'IA
 -->
+{{< /rawhtml >}}
