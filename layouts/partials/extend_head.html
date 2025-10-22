@@ -1,0 +1,6 @@
+{{- /* Head custom content area start */ -}}
+{{- $customCSS := resources.Get "css/custom.css" -}}
+{{- if $customCSS -}}
+  <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">
+{{- end -}}
+{{- /* Head custom content area end */ -}}
