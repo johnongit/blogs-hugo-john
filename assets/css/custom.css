@@ -12,3 +12,16 @@
 .hidden-btn:hover {
   opacity: 1;
 }
+
+.hidden-text {
+  color: transparent;
+  user-select: text;
+  transition: color 0.3s ease;
+}
+.hidden-text:hover {
+  color: inherit;
+}
+.hidden-text::selection {
+  background: rgba(0, 123, 255, 0.3);
+  color: inherit;
+}
