@@ -40,6 +40,7 @@ params:
   tocopen: false
   mainSections:
     - posts
+    - newsletters
 
 
   assets:
@@ -68,6 +69,8 @@ params:
     buttons:
       - name: Posts
         url: posts/
+      - name: Newsletters
+        url: newsletters/
 
 
   # home-info mode
@@ -128,6 +131,10 @@ menu:
       name: Blog
       url: /posts/
       weight: 10
+    - identifier: newsletters
+      name: Newsletter
+      url: /newsletters/
+      weight: 11
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
