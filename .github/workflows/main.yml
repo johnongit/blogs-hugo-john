@@ -38,7 +38,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
 #      - name: Install Node.js dependencies
@@ -53,7 +53,7 @@ jobs:
             --minify \
             --baseURL "${{ vars.SITE_BASE_URL }}/"          
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v4.3.1            
+        uses: actions/upload-artifact@v6
         with:
           name: hugo-site
           path: ./public
@@ -64,12 +64,12 @@ jobs:
     needs: build
     steps:
       - name: Download artifacts (Docker images) from previous workflows
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: hugo-site
           path: ./public
       - name: "Configure AWS Credentials"
-        uses: aws-actions/configure-aws-credentials@v4.0.2
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           aws-region: ${{ vars.AWS_REGION }}
           role-to-assume: arn:aws:iam::911066400676:role/role-gh-action-blog
