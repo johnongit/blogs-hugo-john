@@ -1,5 +1,7 @@
 baseURL: "https://inosta.cc/blogs/"
 title: John3891
+languageCode: "fr-fr"
+defaultContentLanguage: "fr"
 paginate: 5
 theme: PaperMod
 
@@ -44,13 +46,12 @@ params:
 
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "/"
-    favicon16x16: "/"
-    favicon32x32: "/"
-    apple_touch_icon: "/"
-    safari_pinned_tab: "/"
+    favicon: "/blogs/favicon.ico"
+    favicon16x16: "/blogs/favicon-16x16.png"
+    favicon32x32: "/blogs/favicon-32x32.png"
+    apple_touch_icon: "/blogs/apple-touch-icon.png"
+    safari_pinned_tab: "/blogs/safari-pinned-tab.svg"
+
 
   label:
     text: "Home"
