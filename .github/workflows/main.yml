@@ -83,6 +83,9 @@ jobs:
         id: deployment
         # Preserve legacy objects during the migration; HTML must remain revalidatable.
         run: aws s3 sync ./public/ s3://${{ vars.BUCKET_NAME }}/ --cache-control 'max-age=0,must-revalidate'
+      - name: Set UTF-8 content type for llms.txt
+        # Plain text has no HTML charset declaration; browsers need the HTTP charset.
+        run: aws s3 cp ./public/llms.txt s3://${{ vars.BUCKET_NAME }}/llms.txt --content-type 'text/plain; charset=utf-8' --cache-control 'max-age=0,must-revalidate'
       - name: Cloudfront Invalidation 
         id: flushcache
         run: aws cloudfront create-invalidation --distribution-id ${{ vars.CF_DISTRIBUTION_ID }} --paths "/*"
