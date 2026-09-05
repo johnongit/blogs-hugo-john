@@ -1,4 +1,4 @@
-baseURL: "https://inosta.cc/blogs/"
+baseURL: "https://inosta.cc/"
 title: John3891
 languageCode: "fr-fr"
 defaultContentLanguage: "fr"
@@ -9,6 +9,16 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+outputFormats:
+  LLMS:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home: [HTML, RSS, LLMS]
 
 minify:
   disableXML: true
@@ -46,16 +56,16 @@ params:
 
 
   assets:
-    favicon: "/blogs/favicon.ico"
-    favicon16x16: "/blogs/favicon-16x16.png"
-    favicon32x32: "/blogs/favicon-32x32.png"
-    apple_touch_icon: "/blogs/apple-touch-icon.png"
-    safari_pinned_tab: "/blogs/safari-pinned-tab.svg"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
 
   label:
     text: "Home"
-    icon: /blogs/apple-touch-icon.png
+    icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
@@ -151,4 +161,4 @@ markup:
 deployment:
   targets:
     - name: production
-      URL: s3://hugo-blog-john-1645648154317/blogs/?region=us-east-1
+      URL: s3://hugo-blog-john-1645648154317/?region=us-east-1

@@ -81,7 +81,8 @@ jobs:
           mask-aws-account-id: true
       - name: Sync to S3
         id: deployment
-        run: aws s3 sync ./public/ s3://${{ vars.BUCKET_NAME }}/blogs --delete --cache-control max-age=31536000
+        # Preserve legacy objects during the migration; HTML must remain revalidatable.
+        run: aws s3 sync ./public/ s3://${{ vars.BUCKET_NAME }}/ --cache-control 'max-age=0,must-revalidate'
       - name: Cloudfront Invalidation 
         id: flushcache
-        run: aws cloudfront create-invalidation --distribution-id ${{ vars.CF_DISTRIBUTION_ID }} --paths "/blogs/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ vars.CF_DISTRIBUTION_ID }} --paths "/*"
