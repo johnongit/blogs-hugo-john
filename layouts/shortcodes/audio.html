@@ -1,0 +1,14 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" | default "Écouter le résumé" -}}
+{{- $id := printf "newsletter-audio-%d" .Ordinal -}}
+<aside class="newsletter-audio" aria-labelledby="{{ $id }}">
+  <div class="newsletter-audio__heading">
+    <strong id="{{ $id }}">{{ $title }}</strong>
+    <span class="newsletter-audio__meta">{{ with .Get "duration" }}{{ . }} · {{ end }}Voix générée par IA</span>
+  </div>
+  <audio controls preload="none" aria-label="{{ $title }}">
+    <source src="{{ $src | relURL }}" type="audio/mpeg">
+    Votre navigateur ne prend pas en charge la lecture audio.
+  </audio>
+  <a class="newsletter-audio__download" href="{{ $src | relURL }}" download>Télécharger le MP3</a>
+</aside>

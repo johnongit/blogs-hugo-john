@@ -30,3 +30,37 @@
   font-size: 0.65em;
   line-height: 0;
 }
+
+/* Lecteur du résumé audio, partagé par les newsletters. */
+.newsletter-audio {
+  margin: 24px 0;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--code-bg);
+  color-scheme: light;
+}
+.dark .newsletter-audio { color-scheme: dark; }
+.newsletter-audio__heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 16px;
+  margin-bottom: 12px;
+}
+.newsletter-audio__meta,
+.newsletter-audio__download {
+  font-size: 14px;
+  color: var(--secondary);
+}
+.newsletter-audio audio {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+}
+.newsletter-audio__download {
+  display: inline-block;
+  margin-top: 8px;
+}
